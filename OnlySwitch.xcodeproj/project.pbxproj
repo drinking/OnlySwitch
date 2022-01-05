@@ -126,6 +126,7 @@
 		04EB1CD42781280900C612AB /* ShortCutBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB1CD32781280900C612AB /* ShortCutBarView.swift */; };
 		04EB1CD62781299A00C612AB /* ShortcutsBarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB1CD52781299A00C612AB /* ShortcutsBarVM.swift */; };
 		04FE2C922772880300C79FF9 /* ShowExtensionNameSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE2C912772880300C79FF9 /* ShowExtensionNameSwitch.swift */; };
+		440BE7CD2781E7E600D15EFA /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BE7CC2781E7E600D15EFA /* MonitorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -266,6 +267,7 @@
 		04EB1CD32781280900C612AB /* ShortCutBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortCutBarView.swift; sourceTree = "<group>"; };
 		04EB1CD52781299A00C612AB /* ShortcutsBarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsBarVM.swift; sourceTree = "<group>"; };
 		04FE2C912772880300C79FF9 /* ShowExtensionNameSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowExtensionNameSwitch.swift; sourceTree = "<group>"; };
+		440BE7CC2781E7E600D15EFA /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,6 +547,7 @@
 				04938D092769143300713F1D /* GeneralView.swift */,
 				047140BD2778A416005B160B /* PomodoroTimerSettingView.swift */,
 				04EB1CD12780F4F700C612AB /* ShortcutsView.swift */,
+				440BE7CC2781E7E600D15EFA /* MonitorView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -773,6 +776,7 @@
 				0426613A2780B885005DF2B9 /* LowPowerModeSwitch.swift in Sources */,
 				04581DBD27653C35008ADF30 /* AirPodsSettingView.swift in Sources */,
 				049337922762BA3200AE779A /* SettingView.swift in Sources */,
+				440BE7CD2781E7E600D15EFA /* MonitorView.swift in Sources */,
 				0493376427625D6F00AE779A /* RadioPlayerItem.swift in Sources */,
 				04A23B2B275D61BC00B454C8 /* NightShiftSwitch.swift in Sources */,
 				0424348D275643560044D0AD /* TopNotchSwitch.swift in Sources */,
@@ -974,12 +978,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OnlySwitch/OnlySwitch.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlySwitch/Preview Content\"";
-				DEVELOPMENT_TEAM = B22726TNGH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1023,12 +1027,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OnlySwitch/OnlySwitch.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlySwitch/Preview Content\"";
-				DEVELOPMENT_TEAM = B22726TNGH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (

@@ -31,7 +31,6 @@ struct ContentView: View {
                 }.padding(.horizontal,15)
             }.frame(height: scrollViewHeight)
                 .padding(.vertical,15)
-            recommendApp.opacity(0.8)
             bottomBar
 
         }.background(
@@ -50,31 +49,6 @@ struct ContentView: View {
             refreshData()
         }
         .frame(height:scrollViewHeight + 130)
-    }
-    
-    var recommendApp: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 10)
-                        .foregroundColor(colorScheme == .dark ? Color(nsColor: NSColor.darkGray) : .white)
-                        .frame(height: 45)
-            HStack() {
-                Spacer()
-                Text("More App, QRCobot".localized())
-                    .font(.system(size: 14))
-                    .fontWeight(.bold)
-                    .padding(10)
-                Spacer()
-                Link(destination: URL(string: "https://apps.apple.com/us/app/id1590006394")!, label: {
-                    Image("QRCobot")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 45)
-                        .cornerRadius(10)
-                        .help(Text("Download QRCobot".localized()))
-                })
-            }.frame(height: 45)
-                
-        }.padding(.horizontal, 15)
     }
     
     var bottomBar : some View {
